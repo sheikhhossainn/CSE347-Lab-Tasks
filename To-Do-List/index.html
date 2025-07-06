@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>To-Do List</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+
+    <body>
+        <header>
+            <h1>My Tasks</h1>
+            <p>Stay Organized and get things done</p>
+        </header>
+
+        <main>
+            <div class="container">
+                <form id="task-form">
+                    <input type="text" id="task-input" placeholder="   Add a new task..." required>
+                    <button type="submit">Add Task</button>
+                </form>
+                <ul id="task-list"></ul>
+            </div>
+            
+            <div class="task-status">
+                <p>0 Active</p>
+                <p>0 Completed</p>
+                <p>0 Total</p>
+            </div>
+
+            <div class="task-filter">
+                <p>All</p>
+                <p>Active</p>
+                <p>Completed</p>
+            </div>
+        </main>
+
+
+        <footer></footer>
+        <script src="js/app.js"></script>
+    </body>
+</html>
