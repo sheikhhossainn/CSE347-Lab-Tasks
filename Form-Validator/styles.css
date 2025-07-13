@@ -1,0 +1,27 @@
+body {
+    border-top: 100px;
+    text-align: center;
+}
+
+#username, #email, #id, #password, #number {
+    border-radius: 4px;
+    width: 300px;
+    height: 25px;
+    border: 1px solid #e0e0e0;
+    background-color: #f9f9f9;
+    padding: 5px;
+}
+
+#submit {
+    border-radius: 5.5px;
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+}
+
+#submit:hover {
+    animation-duration: 1.5s;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
